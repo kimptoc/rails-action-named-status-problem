@@ -1,7 +1,7 @@
 Rails313scratch::Application.routes.draw do
   resources :widgets
 
-  match 'widgets/:id/foobar' => 'widgets#foobar'
+  match 'widgets/:id/foobar' => 'widgets#status'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

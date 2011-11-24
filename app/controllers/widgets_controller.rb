@@ -10,7 +10,7 @@ class WidgetsController < ApplicationController
     end
   end
   
-  def foobar
+  def status
     
     @widget = Widget.find(params[:id])
     
